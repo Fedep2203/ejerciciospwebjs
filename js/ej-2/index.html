@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <main>
+        <h1>Hoisting</h1>
+        <p>El hoisting es un concepto abstracto que representa cómo JavaScript maneja las declaraciones de variables y
+            funciones
+            durante la fase de compilación. Este es un comportamiento por el cual las declaraciones de variables y
+            funciones son "elevadas" al principio de su ámbito (ya sea global o el de la función).
+            Aunque las declaraciones se "elevan", la inicialización de cada variable no lo hace. Esto significa que es
+            posible utilizar las variables o funciones antes de que aparezcan en el código, pero dependiendo del tipo de
+            declaración, el comportamiento puede variar.</p>
+
+        <h2>¿A qué se refiere con "elevación"?</h2>
+        <p>Durante la fase de compilación, el motor de JavaScript reserva espacio en memoria para las variables y
+            funciones antes de que el código sea ejecutado.</p>
+        <ul>
+            <li>
+                <p>Las declaraciones de funciones y variables se procesan primero y se almacenan en memoria. Esto es lo
+                    que provoca que se comporten como si fueran "elevadas" al inicio de su ámbito, aunque no cambien
+                    físicamente de lugar en el código.</p>
+            </li>
+            <li>
+                <p>Las inicializaciones ocurren en el momento en que el flujo de ejecución alcanza dicha línea. </p>
+            </li>
+        </ul>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>

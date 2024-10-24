@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #111010;
+    border-radius: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    width: 30%;
+}
+
+.invalid {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.7);
+}
+
+.error {
+    color: red;
+    font-size: 1.1rem;
+}
